@@ -70,8 +70,8 @@ class player : public enity, UI {
             while(1) {
                 //Update the screen
                 gfxFlushBuffers();
-		gfxSwapBuffers();
-		gspWaitForVBlank();
+                gfxSwapBuffers();
+                gspWaitForVBlank();
                 
                 //Check pressed buttons
                 hidScanInput();
@@ -163,7 +163,7 @@ int main() {
 
         //update the screen
         gfxFlushBuffers();
-	gfxSwapBuffers();
-	gspWaitForVBlank();
+        gfxSwapBuffers();
+        gspWaitForVBlank();
     }
 }
